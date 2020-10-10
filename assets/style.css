@@ -1,0 +1,17 @@
+/* Defaults */
+    :root {
+        --text-heading: rgb(195, 168, 44);
+        --text-paragraph: rgb(223, 222, 216);
+        --background: rgb(99, 99, 98);
+        --background-secondary:rgb(208, 193, 183);
+    }
+
+/* Body */
+    body {
+        background-color: var(--background);
+    }
+
+/* Hero Banner */
+    .hero {
+        display: flex;
+    }
