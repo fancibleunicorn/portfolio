@@ -8,5 +8,11 @@
         --contact: rgb(43, 167, 199);
     }
 
+    .project img {
+        opacity: .5;
+    }
 
-
+    .project img:hover {
+        opacity: 1;
+        transition: 1s;
+    }
