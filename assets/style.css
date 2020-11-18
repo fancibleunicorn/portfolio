@@ -8,11 +8,51 @@
         --contact: rgb(43, 167, 199);
     }
 
-    .project img {
+    header {
+        background-color: var(--header) !important;
+    }
+
+    .about {
+        background-color: var(--about-me) !important;
+    }
+
+    .work {
+        background-color: var(--work) !important;
+    }
+
+    .contact {
+        background-color: var(--contact) !important;
+    }
+
+    .contact ul {
+        list-style-type: none !important;
+    }
+
+    .contact a {
+        background-color: var(--contact) !important;
+        border: none;
+    }
+
+    .contact a:hover {
         opacity: .5;
+    }
+
+    .project {
+        text-shadow: 2px 2px 8px black;
+    }
+
+    .project img {
+        opacity: .60; 
     }
 
     .project img:hover {
         opacity: 1;
         transition: 1s;
     }
+
+    @media screen and (min-width: 1050px) {
+        body {
+            width: 75%;
+            margin: auto;
+        }
+      }
