@@ -16,6 +16,10 @@
         background-color: var(--about-me) !important;
     }
 
+    .about p {
+        font-size: 25px;
+    }
+
     .work {
         background-color: var(--work) !important;
     }
@@ -50,9 +54,37 @@
         transition: 1s;
     }
 
+    section h2 {
+        font-size: 50px;
+    }
+
     @media screen and (min-width: 1050px) {
         body {
             width: 75%;
             margin: auto;
+        }
+
+        header h1 {
+            font-size: 6vw;
+        }
+
+        header li {
+            font-size: 1.5vw
+        }
+
+        .hero h1 {
+            font-size: 4vw;
+        }
+
+        .hero h5 {
+            font-size: 2vw;
+        }
+
+        .bio {
+            margin: 0 100px;
+        }
+    
+        .contact li {
+            padding:0px 35px;
         }
       }
